@@ -4,6 +4,7 @@ import './App.css';
 import Button from './components/ui-components/Button/Button';
 import CustomizeButton from './components/ui-components/Button/CustomizeButton';
 import Card from './components/ui-components/Card';
+import Chips from './components/ui-components/Chips';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           backgroundColor="blue"
        />
        <Card />
+       <Chips chipsText="Completed" backgroundColor="rgba(93, 248, 136, 1)" />
     </div>
   );
 }
